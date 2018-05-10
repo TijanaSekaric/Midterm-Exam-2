@@ -1,7 +1,7 @@
 # Midterm-Exam-2
 
-Name:
+Name: Tijana
 
-Surname:
+Surname: Sekaric
 
-Index #:
+Index #: 16/074
