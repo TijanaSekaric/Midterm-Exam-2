@@ -23,3 +23,32 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+from random import randint
+
+def merge_sort(niz):
+
+    duzina = len(niz)
+
+    for pozicija in range(duzina-1):
+        minimum = pozicija
+
+        for i in range(minimum+1, duzina):
+
+            if niz[i] < niz[minimum]:
+                minimum = i
+
+        niz[pozicija], niz[minimum]= niz[minimum], niz[pozicija]
+
+    return niz
+
+
+if __name__== "__main__":
+    niz=[]
+
+    for i in range(1000):
+        niz.append(randint(0,1000))
+
+    merge_niz=merge_sort(niz)
+    print(merge_niz)
