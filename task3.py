@@ -13,6 +13,15 @@
 """
 
 # Write your function here
+def sabiranjedo(n):
+
+    if n==0:
+        return 0
+    return + sabiranjedo(n-1)
+zb = sabiranjedo(100)
+print(zb)
+
+
 
 
 
